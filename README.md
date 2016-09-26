@@ -10,7 +10,7 @@ You can install this package either with `npm` only.
 ### npm
 
 ```shell
-npm install angular-translate
+npm install ng-translate
 ```
 
 Then add `ngTranslate` as a dependency for your app:
