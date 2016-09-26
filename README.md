@@ -36,18 +36,25 @@ You will place your language files inside the language folder. File name format 
 ```json
 {
     "locale": "en_US",
-    "name":"ENG_LANG",
+    "name":"EN_LANG",
     "words": {
-        "APP_TITLE" : "Flight App",
-        "HOME_FLIGHTS" : "Flights",
-        "HOME_EXERCISES" : "Exercises",
-        "HOME_FLYING" : "Flying",
-        "HOME_KNOWING" : "Knowing",
+        "APP_TITLE" : "Example App",
         "SETTINGS":"Settings",
-        "HOME_PARTNERS":"Partners",
-	  	"EN_LANG": "English",
-	  	"NL_LANG":"Dutch",
-	  	"LANGUAGE":"Language"
+	"EN_LANG": "English",
+	"NL_LANG":"Dutch",
+	"LANGUAGE":"Language"
     }
 }
+```
+
+### using in app
+
+Change the language in the applicatie
+```javascript
+$translate.ChangeLanguage('nl_NL');
+```
+
+Use translation as filter inside your template
+```html
+<div id="example">{{ 'APP_TITLE' | translate }}</div>
 ```
