@@ -5,7 +5,7 @@ This repo is for distribution on `npm` only.
 
 ## Install
 
-You can install this package either with `npm` only.
+You can install this package with `npm` only.
 
 ### npm
 
@@ -30,7 +30,7 @@ $translate.Config({
 });
 ```
 
-Create folder in the root of of your applicatie with name: languages
+Create folder in the root of your applicatie with name: languages
 
 You will place your language files inside the language folder. File name format as follow: en_US.lang.json. An example file:
 ```json
@@ -49,9 +49,14 @@ You will place your language files inside the language folder. File name format 
 
 ## Using in your application
 
-Change the language in the applicatie
+Change the language in the application
 ```javascript
 $translate.ChangeLanguage('nl_NL');
+```
+
+Get current language name, name must be exists in the *.lang.json file
+```javascript
+$translate.GetCurrentLanguage();
 ```
 
 Use translation as filter inside your template

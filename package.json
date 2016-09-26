@@ -1,6 +1,6 @@
 {
   "name": "ng-translate",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "AngularJS module for simple multi language",
   "main": "index.js",
   "scripts": {
