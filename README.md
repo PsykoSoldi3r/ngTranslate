@@ -47,7 +47,7 @@ You will place your language files inside the language folder. File name format 
 }
 ```
 
-### using in app
+## Using in your application
 
 Change the language in the applicatie
 ```javascript
